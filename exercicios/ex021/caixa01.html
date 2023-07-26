@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /* box-leve */
+            background-color: lightgray;
+            height: 300px;
+            width: 300px;
+
+           /* forma de simplificar isso em baixo.
+           border-width: 10px;
+            border-style: solid;
+            border-color: darkslategray; */
+
+            border: 10px solid darkslategray;
+
+           /*  forma de simplificar isso em baixo
+           padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px; */
+
+            padding: 10px 10px 10px 10px; /* se todos valores forem iguais, voce pode colocar um unico valora que no casos seria 10 */
+
+            /* Para centralizar caixa "margin: auto;" para texto "text-align: center;*/
+
+            /* forma de simplificar isso em baixo
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px; */
+
+            margin: 10px 10px 40px 10px;
+
+            /* forma de simplificar isso em baixo
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+             */
+            outline: 5px dashed salmon;
+        }
+        
+
+        a { /* inline-leve */
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+
+            /* forma simplificada 
+            border: 10px solid red; */
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+          /* forma simplificada 
+            padding: 10px; */
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-leve</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#"> Links são exemplos de caixas inline-level</a> Vamos ver como tudo isso funciona</p>
+</body>
+</html>

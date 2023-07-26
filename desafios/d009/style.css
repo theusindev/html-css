@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.link-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.link-container a {
+    display: block;
+}
+
+    
+
+body {
+    background-image: linear-gradient(to top, rgba(16, 16, 94, 0.404), rgba(68, 47, 47, 0.637));
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+a {
+    text-align: center;
+}
